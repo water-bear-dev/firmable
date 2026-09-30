@@ -2,6 +2,21 @@
 
 Six public sources (ZIP/XML, ZIP/CSV, CSV, and XLSX) were mapped by one generic extractor and six agent-written configs. The run produced 6,000 held-out observations, expanded to 12,000 for resolution, 83 accepted exact-ABN links (79 entities), and 50 provenance-rich profiles.
 
+## Delivery flow
+
+```mermaid
+flowchart LR
+    A["Phase 1<br/>Discover and audit"] --> B["Phase 2<br/>Acquire six sources"]
+    B --> C["Phase 3<br/>Inspect → profile → propose"]
+    C --> D["Held-out validation"]
+    D -->|revise| E["Model revision"]
+    E --> D
+    D -->|pass| F["Human approval<br/>approved config"]
+    F --> G["Phase 4<br/>Extract observations"]
+    G --> H["Phase 5<br/>Exact-ID resolution + audit"]
+    H --> I["Phase 6<br/>Profiles + counterfactual"]
+```
+
 ## 1. Cost
 
 Onboarding one source is two read-only model turns (propose, then revise). The successful ABN retry, one source, used 32,320 input tokens (19,968 cached), 812 output tokens, and 259 reasoning-output tokens. Across the six sources that were approved, onboarding used 209,209 input tokens (124,928 cached), 6,808 output tokens, and 2,555 reasoning-output tokens. A rejected first ABN attempt adds a further two turns; all seven runs together used 240,920 input tokens (138,752 cached), 8,409 output tokens, and 3,190 reasoning-output tokens.

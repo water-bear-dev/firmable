@@ -60,26 +60,95 @@ erDiagram
     SOURCE ||--o{ OBSERVATION : emits
     OBSERVATION ||--o{ CLAIM : contains
     OBSERVATION ||--o{ LINK : "left or right"
-    LINK }o--|| ENTITY : "entity_key abn:value"
+    OBSERVATION ||--o| ABSTENTION : "refused to link"
+    LINK ||--o{ EVIDENCE : cites
+    LINK }o--|| ENTITY : "entity_key"
     ENTITY ||--|| PROFILE : "one merged record"
     PROFILE ||--o{ PROFILE_FIELD : "winning value"
     PROFILE_FIELD ||--o{ ALTERNATE : "losing value"
+
+    SOURCE {
+        string source_id PK
+        string licence
+        float source_reliability
+    }
     OBSERVATION {
+        string source_id FK
+        string source_record_id PK
+        datetime observed_at
+        datetime ingested_at
+        string licence
+        string extractor_version
+        float source_reliability
+    }
+    CLAIM {
+        string source_id FK
+        string source_record_id FK
+        string destination PK
+        string value
+        string raw_value
+        float field_confidence
+        string derivation_level
+    }
+    LINK {
+        string left_source_id FK
+        string left_source_record_id FK
+        string right_source_id FK
+        string right_source_record_id FK
+        string entity_key FK
+        string decision
+        float link_confidence
+        string matcher_version
+    }
+    EVIDENCE {
+        string field
+        string kind
+        string value
+    }
+    ABSTENTION {
+        string source_id FK
+        string source_record_id FK
+        string matcher_version
+        string reason
+    }
+    ENTITY {
+        string entity_key PK
+    }
+    PROFILE {
+        string entity_key PK
+        float link_confidence
+        int linked_observation_count
+    }
+    PROFILE_FIELD {
+        string entity_key FK
+        string canonical_field PK
+        string value
+        float field_confidence
+        string conflict_resolution
+        string winning_source_id
+        string winning_source_record_id
+        string raw_value
+        string licence
+        datetime observed_at
+        float mapping_confidence
+        float source_reliability
+    }
+    ALTERNATE {
+        string entity_key FK
+        string canonical_field FK
+        string value
+        string raw_value
         string source_id
         string source_record_id
         string licence
-    }
-    LINK {
-        string matcher_version
-        float confidence
-        string evidence
-    }
-    PROFILE_FIELD {
-        string canonical_field
-        float field_confidence
-        string provenance
+        datetime observed_at
+        float mapping_confidence
+        float source_reliability
+        float score
     }
 ```
+
+`destination` and `canonical_field` are ontology paths such as `entity.abn` and `address.state`. `value` is the normalised string; `raw_value` is the source text before that normalisation. `derivation_level` is `L1` in this delivery. `decision` is `accepted`. `entity_key` is `abn:<digits>`. `kind` on evidence is `exact_identifier`. Confidences and reliabilities are floats from 0 to 1. Timestamps are ISO-8601 datetimes.
 
 Part 3 models a relationship as a pairwise accepted link with an immutable matcher version and an `entity_key` (`abn:<value>`). The key clusters links into an entity. Exact ABN agreement across different sources is the only acceptance rule in this delivery (confidence 0.99). ACN support exists and produced no additional accepted edge. Name and address similarity is not used to auto-link. Parent and subsidiary links are left out because no source provides direct ownership evidence. The held-out batch alone had too few exact overlaps for a 50-link review, so resolution also used the already-downloaded, disjoint training batches: 83 accepted links and 11,840 abstentions. A fixed-seed review of 50 links was 50 confirmed and 0 rejected, which is precision at the exact-id threshold, not a recall estimate.
 

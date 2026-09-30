@@ -1,6 +1,6 @@
 # Firmable schema-inference assignment
 
-This repository contains a reproducible implementation of the technical assignment. Work is organised in phases and recorded in `EXECUTION_LOG.md`. Design decisions, cost, and the entity-relationship model are in `WRITEUP.md`.
+This repository contains a reproducible implementation of the technical assignment. Work is organised in phases and recorded in `EXECUTION_LOG.md`. Design decisions, cost, and the entity-relationship model with column names and types are in `WRITEUP.md`.
 
 ## Prerequisites
 

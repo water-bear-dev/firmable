@@ -1,0 +1,8 @@
+{
+  "decision": "approved",
+  "approved_by": "user_authorization_to_complete_phase_3",
+  "approved_at": "2026-09-30T06:13:00Z",
+  "config_path": "configs/ato_corporate_tax_2023_24.json",
+  "validation_run": "ato_corporate_tax_2023_24-20260930T061126Z",
+  "additional_model_calls": 0
+}

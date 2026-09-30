@@ -1,0 +1,26 @@
+{
+  "abn_bulk_extract": {
+    "profiles_changed": 46,
+    "fields_changed": 114
+  },
+  "acnc_ais_2023": {
+    "profiles_changed": 18,
+    "fields_changed": 30
+  },
+  "asic_afs_licensee": {
+    "profiles_changed": 0,
+    "fields_changed": 0
+  },
+  "asic_company": {
+    "profiles_changed": 30,
+    "fields_changed": 34
+  },
+  "ato_corporate_tax_2023_24": {
+    "profiles_changed": 5,
+    "fields_changed": 5
+  },
+  "tenders_wa_2023_24": {
+    "profiles_changed": 0,
+    "fields_changed": 0
+  }
+}

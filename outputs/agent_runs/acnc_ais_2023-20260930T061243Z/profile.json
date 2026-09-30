@@ -1,0 +1,821 @@
+{
+  "abn": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1000,
+    "examples": [
+      "11000047950",
+      "11001241005",
+      "11002058127"
+    ]
+  },
+  "charity name": {
+    "non_null_rate": 1.0,
+    "distinct_count": 993,
+    "examples": [
+      "Sydney Missionary & Bible College",
+      "Wangarang Industries Limited",
+      "Burrum Benevolent Society Inc"
+    ]
+  },
+  "registration status": {
+    "non_null_rate": 1.0,
+    "distinct_count": 8,
+    "examples": [
+      "Registered",
+      "Registered",
+      "Registered"
+    ]
+  },
+  "charity website": {
+    "non_null_rate": 0.702,
+    "distinct_count": 697,
+    "examples": [
+      "www.smbc.edu.au",
+      "https://www.wangarang.com.au",
+      "https://chrysalis.nsw.edu.au/"
+    ]
+  },
+  "charity size": {
+    "non_null_rate": 1.0,
+    "distinct_count": 4,
+    "examples": [
+      "Large",
+      "Large",
+      "Small"
+    ]
+  },
+  "basic religious charity": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "ais due date": {
+    "non_null_rate": 1.0,
+    "distinct_count": 16,
+    "examples": [
+      "30/06/2024",
+      "31/01/2024",
+      "30/06/2024"
+    ]
+  },
+  "date ais received": {
+    "non_null_rate": 1.0,
+    "distinct_count": 355,
+    "examples": [
+      "25/06/2024",
+      "31/01/2024",
+      "06/06/2024"
+    ]
+  },
+  "financial report date received": {
+    "non_null_rate": 0.7,
+    "distinct_count": 296,
+    "examples": [
+      "25/06/2024",
+      "31/01/2024",
+      "27/06/2024"
+    ]
+  },
+  "conducted activities": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "y",
+      "y",
+      "y"
+    ]
+  },
+  "why charity did not conduct activities": {
+    "non_null_rate": 0.04,
+    "distinct_count": 40,
+    "examples": [
+      "Yagoona Baptist Church was planted under the name of Graceway Church and so is no longer operating.",
+      "aging committee as well as clients",
+      "Lack of resources in the FY2023 and FY2024. is looking to re-commence in FY2025."
+    ]
+  },
+  "international activities details": {
+    "non_null_rate": 0.051,
+    "distinct_count": 51,
+    "examples": [
+      "Provided the copyright for our popular daily devotional, which is published in simple English and/or translated into loc",
+      "We donated money overseas to provide aids to fellow Christians living in remote regions of Northern Viet Nam who suffers",
+      "We are continuing to raise funds in Australia for the activities we have planned in Vietnam. We have recommenced communi"
+    ]
+  },
+  "international activities undertaken - transferring goods or services overseas": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "international activities undertaken - operating overseas including programs": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "other international activities": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "other international activities description": {
+    "non_null_rate": 0.007,
+    "distinct_count": 7,
+    "examples": [
+      "We conduct literary exchanges in Scotland, Ireland, China & New Zealand",
+      "Providing KYB study material in digital or print format.",
+      "At Relief for Kids Inc,  our primary mission is to break down the barriers that hinder educational opportunities for chi"
+    ]
+  },
+  "how purposes were pursued": {
+    "non_null_rate": 0.96,
+    "distinct_count": 904,
+    "examples": [
+      "Conducting an interdenominational community based Bible College with a strong missions and crosscultural focus to train ",
+      "1. Wangarang is an Australian Supported Employment Enterprise (SEE) that provides real work in a supported environment f",
+      "Raising money by selling 2nd hand goods and monies going back to our local community groups and charities."
+    ]
+  },
+  "staff - full time": {
+    "non_null_rate": 1.0,
+    "distinct_count": 66,
+    "examples": [
+      "35",
+      "31",
+      "0"
+    ]
+  },
+  "staff - part time": {
+    "non_null_rate": 1.0,
+    "distinct_count": 64,
+    "examples": [
+      "15",
+      "101",
+      "0"
+    ]
+  },
+  "staff - casual": {
+    "non_null_rate": 1.0,
+    "distinct_count": 57,
+    "examples": [
+      "25",
+      "24",
+      "0"
+    ]
+  },
+  "total full time equivalent staff": {
+    "non_null_rate": 1.0,
+    "distinct_count": 231,
+    "examples": [
+      "54",
+      "85",
+      "20"
+    ]
+  },
+  "staff - volunteers": {
+    "non_null_rate": 1.0,
+    "distinct_count": 98,
+    "examples": [
+      "1",
+      "0",
+      "20"
+    ]
+  },
+  "cash or accrual": {
+    "non_null_rate": 0.621,
+    "distinct_count": 2,
+    "examples": [
+      "Cash",
+      "Accrual",
+      "Cash"
+    ]
+  },
+  "type of financial statement": {
+    "non_null_rate": 0.252,
+    "distinct_count": 3,
+    "examples": [
+      "Special purpose financial statements",
+      "Special purpose financial statements",
+      "General purpose financial statements"
+    ]
+  },
+  "report consolidated with more than one entity": {
+    "non_null_rate": 0.252,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "charity report has a modification": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "type of report modification": {
+    "non_null_rate": 0.022,
+    "distinct_count": 2,
+    "examples": [
+      "Qualified/qualification",
+      "Qualified/qualification",
+      "Qualified/qualification"
+    ]
+  },
+  "charity has reportable related party transactions": {
+    "non_null_rate": 0.878,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "Relevant transactions": {
+    "non_null_rate": 0.129,
+    "distinct_count": 34,
+    "examples": [
+      " Fees paid to a related party for providing goods or services to the charity; Salary/wages paid to a related party\u2019s rel",
+      " other",
+      " Fees paid to a related party for providing goods or services to the charity"
+    ]
+  },
+  "Other details": {
+    "non_null_rate": 0.029,
+    "distinct_count": 26,
+    "examples": [
+      "Payment of grants and expenses to medical Research",
+      "The Company pays certain audit  property and other administration expenses on behalf of The Church of England Deaconess ",
+      "Fees charged"
+    ]
+  },
+  "Other Relevant details": {
+    "non_null_rate": 0.069,
+    "distinct_count": 64,
+    "examples": [
+      "Austin & IBAS",
+      "Transactions with Respect Group Limited include Management Fees paid during the half year ended 31 December 2022.",
+      "A spouse of a director of the Company is a casual lecturer at Mary Andrews College and is paid on the same basis as othe"
+    ]
+  },
+  "fin report from": {
+    "non_null_rate": 0.873,
+    "distinct_count": 19,
+    "examples": [
+      "01/01/2023",
+      "01/07/2022",
+      "01/01/2023"
+    ]
+  },
+  "fin report to": {
+    "non_null_rate": 0.873,
+    "distinct_count": 17,
+    "examples": [
+      "31/12/2023",
+      "30/06/2023",
+      "31/12/2023"
+    ]
+  },
+  "revenue from government": {
+    "non_null_rate": 1.0,
+    "distinct_count": 292,
+    "examples": [
+      "0",
+      "2980834",
+      "0"
+    ]
+  },
+  "donations and bequests": {
+    "non_null_rate": 1.0,
+    "distinct_count": 557,
+    "examples": [
+      "1158030",
+      "32322",
+      "0"
+    ]
+  },
+  "revenue from goods and services": {
+    "non_null_rate": 1.0,
+    "distinct_count": 451,
+    "examples": [
+      "5060193",
+      "1642778",
+      "135249"
+    ]
+  },
+  "revenue from investments": {
+    "non_null_rate": 1.0,
+    "distinct_count": 422,
+    "examples": [
+      "101073",
+      "8019",
+      "0"
+    ]
+  },
+  "all other revenue": {
+    "non_null_rate": 1.0,
+    "distinct_count": 401,
+    "examples": [
+      "61637",
+      "43379",
+      "0"
+    ]
+  },
+  "total revenue": {
+    "non_null_rate": 1.0,
+    "distinct_count": 805,
+    "examples": [
+      "6380933",
+      "4707332",
+      "135249"
+    ]
+  },
+  "other income": {
+    "non_null_rate": 1.0,
+    "distinct_count": 163,
+    "examples": [
+      "0",
+      "53668",
+      "0"
+    ]
+  },
+  "total gross income": {
+    "non_null_rate": 1.0,
+    "distinct_count": 807,
+    "examples": [
+      "6380933",
+      "4761000",
+      "135249"
+    ]
+  },
+  "employee expenses": {
+    "non_null_rate": 1.0,
+    "distinct_count": 398,
+    "examples": [
+      "3060838",
+      "3702298",
+      "0"
+    ]
+  },
+  "interest expenses": {
+    "non_null_rate": 1.0,
+    "distinct_count": 54,
+    "examples": [
+      "3204",
+      "503",
+      "0"
+    ]
+  },
+  "grants and donations made for use in Australia": {
+    "non_null_rate": 1.0,
+    "distinct_count": 261,
+    "examples": [
+      "320860",
+      "10000",
+      "91000"
+    ]
+  },
+  "grants and donations made for use outside Australia": {
+    "non_null_rate": 1.0,
+    "distinct_count": 77,
+    "examples": [
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "all other expenses": {
+    "non_null_rate": 1.0,
+    "distinct_count": 761,
+    "examples": [
+      "4254770",
+      "887578",
+      "45676"
+    ]
+  },
+  "total expenses": {
+    "non_null_rate": 1.0,
+    "distinct_count": 800,
+    "examples": [
+      "7639672",
+      "4600379",
+      "136676"
+    ]
+  },
+  "net surplus/deficit": {
+    "non_null_rate": 1.0,
+    "distinct_count": 813,
+    "examples": [
+      "-1258739",
+      "160621",
+      "-1427"
+    ]
+  },
+  "other comprehensive income": {
+    "non_null_rate": 1.0,
+    "distinct_count": 27,
+    "examples": [
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "total comprehensive income": {
+    "non_null_rate": 1.0,
+    "distinct_count": 279,
+    "examples": [
+      "-1258739",
+      "160621",
+      "0"
+    ]
+  },
+  "total current assets": {
+    "non_null_rate": 1.0,
+    "distinct_count": 251,
+    "examples": [
+      "2218196",
+      "1232640",
+      "0"
+    ]
+  },
+  "non-current loans receivable": {
+    "non_null_rate": 1.0,
+    "distinct_count": 9,
+    "examples": [
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "other non-current assets": {
+    "non_null_rate": 1.0,
+    "distinct_count": 101,
+    "examples": [
+      "66855076",
+      "4040313",
+      "0"
+    ]
+  },
+  "total non-current assets": {
+    "non_null_rate": 1.0,
+    "distinct_count": 217,
+    "examples": [
+      "66855076",
+      "4040313",
+      "0"
+    ]
+  },
+  "total assets": {
+    "non_null_rate": 1.0,
+    "distinct_count": 789,
+    "examples": [
+      "69073272",
+      "5272953",
+      "55659"
+    ]
+  },
+  "total current liabilities": {
+    "non_null_rate": 1.0,
+    "distinct_count": 241,
+    "examples": [
+      "1236485",
+      "940936",
+      "0"
+    ]
+  },
+  "non-current loans payable": {
+    "non_null_rate": 1.0,
+    "distinct_count": 26,
+    "examples": [
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "other non-current liabilities": {
+    "non_null_rate": 1.0,
+    "distinct_count": 94,
+    "examples": [
+      "28926",
+      "34412",
+      "0"
+    ]
+  },
+  "total non-current liabilities": {
+    "non_null_rate": 1.0,
+    "distinct_count": 168,
+    "examples": [
+      "28926",
+      "34412",
+      "0"
+    ]
+  },
+  "total liabilities": {
+    "non_null_rate": 1.0,
+    "distinct_count": 506,
+    "examples": [
+      "1265411",
+      "975348",
+      "0"
+    ]
+  },
+  "net assets/liabilities": {
+    "non_null_rate": 1.0,
+    "distinct_count": 787,
+    "examples": [
+      "67807861",
+      "4297605",
+      "55659"
+    ]
+  },
+  "coop financial report submitted to regulator": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "incorporated association": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "y",
+      "n",
+      "y"
+    ]
+  },
+  "association number - act": {
+    "non_null_rate": 0.017,
+    "distinct_count": 17,
+    "examples": [
+      "A03527",
+      "A00951",
+      "A01644"
+    ]
+  },
+  "association number - nsw": {
+    "non_null_rate": 0.108,
+    "distinct_count": 108,
+    "examples": [
+      "INC1803571",
+      "Y0040815",
+      "Y0504500"
+    ]
+  },
+  "association number - nt": {
+    "non_null_rate": 0.004,
+    "distinct_count": 4,
+    "examples": [
+      "00452C/IA",
+      "00702C/IA",
+      "02264C/IA"
+    ]
+  },
+  "association number - qld": {
+    "non_null_rate": 0.056,
+    "distinct_count": 56,
+    "examples": [
+      "IA18344",
+      "IA11750",
+      "IA02468"
+    ]
+  },
+  "association number - sa": {
+    "non_null_rate": 0.03,
+    "distinct_count": 30,
+    "examples": [
+      "A37859",
+      "A10448",
+      "A3616"
+    ]
+  },
+  "association number - tas": {
+    "non_null_rate": 0.01,
+    "distinct_count": 10,
+    "examples": [
+      "01874C",
+      "02056C",
+      "IA12387"
+    ]
+  },
+  "association number - vic": {
+    "non_null_rate": 0.104,
+    "distinct_count": 104,
+    "examples": [
+      "A0009802S",
+      "A0057948T",
+      "A0020449D"
+    ]
+  },
+  "association number - wa": {
+    "non_null_rate": 0.06,
+    "distinct_count": 60,
+    "examples": [
+      "A1002599M",
+      "A1012564D",
+      "A0050027P"
+    ]
+  },
+  "fundraising - act": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "fundraising number - act": {
+    "non_null_rate": 0.009,
+    "distinct_count": 9,
+    "examples": [
+      "19000371",
+      "19000409",
+      "19000692"
+    ]
+  },
+  "fundraising - nsw": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "y",
+      "y",
+      "n"
+    ]
+  },
+  "fundraising number - nsw": {
+    "non_null_rate": 0.1,
+    "distinct_count": 100,
+    "examples": [
+      "11337",
+      "10602",
+      "CFN/12185"
+    ]
+  },
+  "fundraising - nt": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "fundraising - qld": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "fundraising number - qld": {
+    "non_null_rate": 0.045,
+    "distinct_count": 45,
+    "examples": [
+      "CP4118",
+      "CP5611",
+      "CP0264"
+    ]
+  },
+  "fundraising - sa": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "fundraising number - sa": {
+    "non_null_rate": 0.02,
+    "distinct_count": 20,
+    "examples": [
+      "CCP3569",
+      "CCP2435",
+      "CCP4297"
+    ]
+  },
+  "fundraising - tas": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "fundraising number - tas": {
+    "non_null_rate": 0.02,
+    "distinct_count": 20,
+    "examples": [
+      "C/10648",
+      "C/10325",
+      "C/11174"
+    ]
+  },
+  "fundraising - vic": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "fundraising number - vic": {
+    "non_null_rate": 0.049,
+    "distinct_count": 49,
+    "examples": [
+      "13804",
+      "13981",
+      "FR0013450"
+    ]
+  },
+  "fundraising - wa": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "fundraising number - wa": {
+    "non_null_rate": 0.029,
+    "distinct_count": 28,
+    "examples": [
+      "CC21706",
+      "CC22035",
+      "CC23342"
+    ]
+  },
+  "fundraising - online": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "n",
+      "n",
+      "n"
+    ]
+  },
+  "Key Management Personnel": {
+    "non_null_rate": 0.111,
+    "distinct_count": 2,
+    "examples": [
+      "No",
+      "Yes",
+      "Yes"
+    ]
+  },
+  "Number of Key Management Personnel": {
+    "non_null_rate": 0.111,
+    "distinct_count": 19,
+    "examples": [
+      "0",
+      "3",
+      "2"
+    ]
+  },
+  "Total paid to Key Management Personnel": {
+    "non_null_rate": 0.111,
+    "distinct_count": 71,
+    "examples": [
+      "0",
+      "426709",
+      "320000"
+    ]
+  },
+  "assets and liabilities description": {
+    "non_null_rate": 0.284,
+    "distinct_count": 279,
+    "examples": [
+      "Assets - Bank accounts $112,134.01 & Plant and equipment $4000",
+      "Cash at bank $22",
+      "Our charity currently has 3 bank accounts, with total balance of $110202 as well as a receivable from the school for fun"
+    ]
+  }
+}

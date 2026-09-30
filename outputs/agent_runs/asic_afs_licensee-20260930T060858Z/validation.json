@@ -1,0 +1,108 @@
+{
+  "heldout_records": 1000,
+  "extracted_records": 0,
+  "field_coverage": {},
+  "errors": [
+    {
+      "kind": "extraction",
+      "source_record_id": "219140",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "219326",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "219462",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "220242",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "220647",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "220718",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "221146",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "221183",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "221218",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "221474",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "221476",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "221531",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "221556",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "221671",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "221896",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "221933",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "221938",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "222029",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "222040",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "222050",
+      "message": "'format'"
+    }
+  ],
+  "passes": false
+}

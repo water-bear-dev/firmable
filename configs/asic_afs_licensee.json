@@ -1,0 +1,15 @@
+{
+  "version": "0.1",
+  "extractor_version": "1.0.0",
+  "source": {"source_id": "asic_afs_licensee", "licence": "Creative Commons Attribution 3.0 Australia", "source_reliability": 0.9},
+  "record_id": {"source_fields": ["AFS_LIC_NUM"], "separator": "|"},
+  "field_mappings": [
+    {"source_field": "AFS_LIC_NAME", "destination": "entity.legal_name", "operations": [{"op": "strip"}], "field_confidence": 0.98, "derivation_level": "L0"},
+    {"source_field": "AFS_LIC_START_DT", "destination": "entity.date_registered", "operations": [{"op": "strip"}, {"op": "parse_date", "format": "%d/%m/%Y"}], "field_confidence": 0.95, "derivation_level": "L1"},
+    {"source_field": "AFS_LIC_ADD_LOCAL", "destination": "address.locality", "operations": [{"op": "strip"}], "field_confidence": 0.97, "derivation_level": "L0"},
+    {"source_field": "AFS_LIC_ADD_STATE", "destination": "address.state", "operations": [{"op": "strip"}, {"op": "upper"}], "field_confidence": 0.98, "derivation_level": "L1"},
+    {"source_field": "AFS_LIC_ADD_PCODE", "destination": "address.postcode", "operations": [{"op": "strip"}], "field_confidence": 0.97, "derivation_level": "L0"},
+    {"source_field": "AFS_LIC_ADD_COUNTRY", "destination": "address.country", "operations": [{"op": "strip"}], "field_confidence": 0.98, "derivation_level": "L0"}
+  ],
+  "unmapped_fields": ["AFS_LIC_ABN_ACN", "AFS_LIC_CONDITION", "AFS_LIC_PRE_FSR", "REGISTER_NAME"]
+}

@@ -1,0 +1,13 @@
+{
+  "heldout_records": 1000,
+  "extracted_records": 1000,
+  "field_coverage": {
+    "entity.abn": 1.0,
+    "entity.acn": 0.824,
+    "entity.legal_name": 0.962,
+    "address.state": 0.999,
+    "address.postcode": 1.0
+  },
+  "errors": [],
+  "passes": true
+}

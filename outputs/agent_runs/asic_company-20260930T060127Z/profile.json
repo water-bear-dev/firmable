@@ -1,0 +1,133 @@
+{
+  "Company Name": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1000,
+    "examples": [
+      "LOVINI HOLDINGS PTY LTD",
+      "CHRISTENSEN & ASSOCIATES PTY LTD",
+      "SAMOZI PTY LTD"
+    ]
+  },
+  "ACN": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1000,
+    "examples": [
+      "000000019",
+      "000000028",
+      "000000082"
+    ]
+  },
+  "Type": {
+    "non_null_rate": 1.0,
+    "distinct_count": 3,
+    "examples": [
+      "APTY",
+      "APTY",
+      "APTY"
+    ]
+  },
+  "Class": {
+    "non_null_rate": 1.0,
+    "distinct_count": 4,
+    "examples": [
+      "LMSH",
+      "LMSH",
+      "LMSH"
+    ]
+  },
+  "Sub Class": {
+    "non_null_rate": 1.0,
+    "distinct_count": 9,
+    "examples": [
+      "PROP",
+      "PSTC",
+      "PROP"
+    ]
+  },
+  "Status": {
+    "non_null_rate": 1.0,
+    "distinct_count": 6,
+    "examples": [
+      "REGD",
+      "REGD",
+      "REGD"
+    ]
+  },
+  "Date of Registration": {
+    "non_null_rate": 0.999,
+    "distinct_count": 883,
+    "examples": [
+      "08/01/1990",
+      "15/09/1987",
+      "13/02/1984"
+    ]
+  },
+  "Date of Deregistration": {
+    "non_null_rate": 0.016,
+    "distinct_count": 16,
+    "examples": [
+      "18/12/2025",
+      "19/08/2026",
+      "16/11/2025"
+    ]
+  },
+  "Previous State of Registration": {
+    "non_null_rate": 0.999,
+    "distinct_count": 1,
+    "examples": [
+      "NSW",
+      "NSW",
+      "NSW"
+    ]
+  },
+  "State Registration number": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1000,
+    "examples": [
+      "46869041",
+      "40398926",
+      "33121533"
+    ]
+  },
+  "Modified since last report": {
+    "non_null_rate": 0.0,
+    "distinct_count": 0,
+    "examples": []
+  },
+  "Current Name Indicator": {
+    "non_null_rate": 0.732,
+    "distinct_count": 1,
+    "examples": [
+      "Y",
+      "Y",
+      "Y"
+    ]
+  },
+  "ABN": {
+    "non_null_rate": 1.0,
+    "distinct_count": 918,
+    "examples": [
+      "89000000019",
+      "91000000028",
+      "14000000082"
+    ]
+  },
+  "Current Name": {
+    "non_null_rate": 0.268,
+    "distinct_count": 268,
+    "examples": [
+      "MONAKA PTY LTD",
+      "W & L COMPUTER CONSULTANTS PTY LTD",
+      "MLC LIFETIME COMPANY LIMITED"
+    ]
+  },
+  "Current Name Start Date": {
+    "non_null_rate": 0.256,
+    "distinct_count": 241,
+    "examples": [
+      "28/01/2016",
+      "28/03/1984",
+      "19/08/2003"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "manifest_version": "1.0",
+  "acquisitions": [
+    {
+      "source_id": "asic_company",
+      "path": "data/raw/asic_company.zip",
+      "retrieved_at_utc": "2026-09-29T06:06:13.012690+00:00",
+      "content_type": "application/zip",
+      "bytes_downloaded": 79151729,
+      "sha256": "a4c65f347f7cb1f303bdf5077af7f79a964a60aa03d68f16be19acbdecebcf3e"
+    },
+    {
+      "source_id": "asic_afs_licensee",
+      "path": "data/raw/asic_afs_licensee.csv",
+      "retrieved_at_utc": "2026-09-29T06:06:13.560110+00:00",
+      "content_type": "text/csv",
+      "bytes_downloaded": 11357029,
+      "sha256": "f0b266391d0c409d7789680fed0052e5c5b3683ac87294aa3e01fda9252f7ee0"
+    },
+    {
+      "source_id": "ato_corporate_tax_2023_24",
+      "path": "data/raw/ato_corporate_tax_2023_24.xlsx",
+      "retrieved_at_utc": "2026-09-29T06:06:13.846825+00:00",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "bytes_downloaded": 276536,
+      "sha256": "6b47837efab92e1eb2b0cacc46945376a5b185c1b16814146c3282a1921b0c75"
+    },
+    {
+      "source_id": "acnc_ais_2023",
+      "path": "data/raw/acnc_ais_2023.xlsx",
+      "retrieved_at_utc": "2026-09-29T06:06:15.219843+00:00",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "bytes_downloaded": 21531226,
+      "sha256": "fa46c4f2b488b3ad55055427f19c0009cfc830e1e7fac806b4e958c683d44f6c"
+    },
+    {
+      "source_id": "tenders_wa_2023_24",
+      "path": "data/raw/tenders_wa_2023_24.csv",
+      "retrieved_at_utc": "2026-09-29T06:06:15.946710+00:00",
+      "content_type": "text/csv",
+      "bytes_downloaded": 4622055,
+      "sha256": "a6e9859f99ba7211c75222ffebc938c5395487dd2491eff5ba2a60a62d7c3241"
+    }
+  ]
+}

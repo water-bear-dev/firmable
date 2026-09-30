@@ -1,0 +1,8 @@
+{
+  "decision": "approved",
+  "approved_by": "user",
+  "approved_at": "2026-09-30T05:55:00Z",
+  "config_path": "configs/abn_bulk_extract.json",
+  "validation_run": "abn_bulk_extract-20260930T055102Z",
+  "additional_model_calls": 0
+}

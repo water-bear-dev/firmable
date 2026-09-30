@@ -1,0 +1,19 @@
+{
+  "source": {
+    "source_id": "abn_bulk_extract",
+    "format": "zip/xml",
+    "publisher": "Australian Business Register",
+    "stable_record_id_candidate": "ABN (verify from XML sample)",
+    "licence": "Creative Commons Attribution 3.0 Australia"
+  },
+  "training_records": 1000,
+  "heldout_records": 1000,
+  "raw_fields": [
+    "ABN",
+    "ASICNumber",
+    "EntityTypeText",
+    "NonIndividualNameText",
+    "Postcode",
+    "State"
+  ]
+}

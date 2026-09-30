@@ -1,0 +1,8 @@
+{
+  "decision": "approved",
+  "approved_by": "user",
+  "approved_at": "2026-09-30T06:05:00Z",
+  "config_path": "configs/asic_company.json",
+  "validation_run": "asic_company-20260930T060127Z",
+  "additional_model_calls": 0
+}

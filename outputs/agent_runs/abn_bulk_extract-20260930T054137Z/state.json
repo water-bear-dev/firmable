@@ -1,0 +1,55 @@
+{
+  "source_id": "abn_bulk_extract",
+  "run_id": "abn_bulk_extract-20260930T054137Z",
+  "completed_steps": [
+    "inspect",
+    "profile",
+    "propose",
+    "extract",
+    "validate",
+    "revise"
+  ],
+  "status": "awaiting_human_approval",
+  "costs": [
+    {
+      "provider": "codex_cli",
+      "model": "Codex default",
+      "turn": 1,
+      "max_turns": 2,
+      "usage_events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 15827,
+            "cached_input_tokens": 6912,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 587,
+            "reasoning_output_tokens": 119
+          }
+        }
+      ],
+      "estimated_cost_usd": null,
+      "cost_accounting": "Codex plan quota is not dollar-metered by the CLI"
+    },
+    {
+      "provider": "codex_cli",
+      "model": "Codex default",
+      "turn": 2,
+      "max_turns": 2,
+      "usage_events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 15884,
+            "cached_input_tokens": 6912,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1014,
+            "reasoning_output_tokens": 516
+          }
+        }
+      ],
+      "estimated_cost_usd": null,
+      "cost_accounting": "Codex plan quota is not dollar-metered by the CLI"
+    }
+  ]
+}

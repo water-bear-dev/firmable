@@ -1,0 +1,80 @@
+{
+  "version": "0.1",
+  "extractor_version": "1.0.0",
+  "source": {
+    "source_id": "asic_company",
+    "licence": "Creative Commons Attribution 3.0 Australia",
+    "source_reliability": 0.9
+  },
+  "record_id": {
+    "source_fields": [
+      "ACN"
+    ],
+    "separator": "|"
+  },
+  "field_mappings": [
+    {
+      "source_field": "ACN",
+      "destination": "entity.acn",
+      "operations": [
+        {
+          "op": "digits_only"
+        }
+      ],
+      "field_confidence": 0.99,
+      "derivation_level": "L1"
+    },
+    {
+      "source_field": "ABN",
+      "destination": "entity.abn",
+      "operations": [
+        {
+          "op": "digits_only"
+        },
+        {
+          "op": "validate_abn"
+        }
+      ],
+      "field_confidence": 0.99,
+      "derivation_level": "L1"
+    },
+    {
+      "source_field": "Current Name",
+      "destination": "entity.legal_name",
+      "operations": [
+        {
+          "op": "strip"
+        }
+      ],
+      "field_confidence": 0.98,
+      "derivation_level": "L1"
+    },
+    {
+      "source_field": "Date of Registration",
+      "destination": "entity.date_registered",
+      "operations": [
+        {
+          "op": "strip"
+        },
+        {
+          "op": "parse_date"
+        }
+      ],
+      "field_confidence": 0.98,
+      "derivation_level": "L1"
+    }
+  ],
+  "unmapped_fields": [
+    "Class",
+    "Company Name",
+    "Current Name Indicator",
+    "Current Name Start Date",
+    "Date of Deregistration",
+    "Modified since last report",
+    "Previous State of Registration",
+    "State Registration number",
+    "Status",
+    "Sub Class",
+    "Type"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "decision": "approved",
+  "approved_by": "user_authorization_to_complete_phase_3",
+  "approved_at": "2026-09-30T06:14:00Z",
+  "config_path": "configs/acnc_ais_2023.json",
+  "validation_run": "acnc_ais_2023-20260930T061243Z",
+  "additional_model_calls": 0
+}

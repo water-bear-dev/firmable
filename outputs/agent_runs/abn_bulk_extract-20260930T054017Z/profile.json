@@ -1,0 +1,56 @@
+{
+  "ABN": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1000,
+    "examples": [
+      "11000003378",
+      "11000007876",
+      "11000009496"
+    ]
+  },
+  "ASICNumber": {
+    "non_null_rate": 0.834,
+    "distinct_count": 834,
+    "examples": [
+      "000003378",
+      "000007876",
+      "000009496"
+    ]
+  },
+  "EntityTypeText": {
+    "non_null_rate": 1.0,
+    "distinct_count": 15,
+    "examples": [
+      "Australian Public Company",
+      "Australian Private Company",
+      "Australian Private Company"
+    ]
+  },
+  "NonIndividualNameText": {
+    "non_null_rate": 0.953,
+    "distinct_count": 953,
+    "examples": [
+      "BBC HARDWARE LIMITED",
+      "AMPOL PETROLEUM PTY LTD",
+      "PIONEER STEEL PTY LTD"
+    ]
+  },
+  "State": {
+    "non_null_rate": 1.0,
+    "distinct_count": 8,
+    "examples": [
+      "VIC",
+      "NSW",
+      "NSW"
+    ]
+  },
+  "Postcode": {
+    "non_null_rate": 1.0,
+    "distinct_count": 486,
+    "examples": [
+      "3121",
+      "2015",
+      "2000"
+    ]
+  }
+}

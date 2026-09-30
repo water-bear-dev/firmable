@@ -1,0 +1,9 @@
+{
+  "decision": "approved",
+  "approved_by": "user_authorization_to_complete_phase_3",
+  "approved_at": "2026-09-30T06:16:00Z",
+  "config_path": "configs/tenders_wa_2023_24.json",
+  "validation_run": "tenders_wa_2023_24-20260930T061444Z",
+  "deterministic_correction": "Use Reference_Number plus Supplier_Name as a unique composite source-record ID.",
+  "additional_model_calls": 0
+}

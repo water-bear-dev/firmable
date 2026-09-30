@@ -1,0 +1,9 @@
+{
+  "decision": "approved",
+  "approved_by": "user_authorization_to_complete_phase_3",
+  "approved_at": "2026-09-30T06:12:00Z",
+  "config_path": "configs/asic_afs_licensee.json",
+  "validation_run": "asic_afs_licensee-20260930T060858Z",
+  "deterministic_correction": "Removed AFS_LIC_NUM from unmapped_fields because it is the stable record ID.",
+  "additional_model_calls": 0
+}

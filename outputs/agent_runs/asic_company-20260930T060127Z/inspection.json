@@ -1,0 +1,28 @@
+{
+  "source": {
+    "source_id": "asic_company",
+    "format": "zip/csv",
+    "publisher": "Australian Securities and Investments Commission (ASIC)",
+    "stable_record_id_candidate": "ACN (verify from header)",
+    "licence": "Creative Commons Attribution 3.0 Australia"
+  },
+  "training_records": 1000,
+  "heldout_records": 1000,
+  "raw_fields": [
+    "ABN",
+    "ACN",
+    "Class",
+    "Company Name",
+    "Current Name",
+    "Current Name Indicator",
+    "Current Name Start Date",
+    "Date of Deregistration",
+    "Date of Registration",
+    "Modified since last report",
+    "Previous State of Registration",
+    "State Registration number",
+    "Status",
+    "Sub Class",
+    "Type"
+  ]
+}

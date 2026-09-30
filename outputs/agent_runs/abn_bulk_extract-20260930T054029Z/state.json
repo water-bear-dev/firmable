@@ -1,0 +1,10 @@
+{
+  "source_id": "abn_bulk_extract",
+  "run_id": "abn_bulk_extract-20260930T054029Z",
+  "completed_steps": [
+    "inspect",
+    "profile"
+  ],
+  "status": "failed",
+  "costs": []
+}

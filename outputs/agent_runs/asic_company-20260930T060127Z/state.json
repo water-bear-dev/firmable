@@ -1,0 +1,55 @@
+{
+  "source_id": "asic_company",
+  "run_id": "asic_company-20260930T060127Z",
+  "completed_steps": [
+    "inspect",
+    "profile",
+    "propose",
+    "extract",
+    "validate",
+    "revise"
+  ],
+  "status": "approved",
+  "costs": [
+    {
+      "provider": "codex_cli",
+      "model": "Codex default",
+      "turn": 1,
+      "max_turns": 2,
+      "usage_events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 16539,
+            "cached_input_tokens": 6912,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 637,
+            "reasoning_output_tokens": 363
+          }
+        }
+      ],
+      "estimated_cost_usd": null,
+      "cost_accounting": "Codex plan quota is not dollar-metered by the CLI"
+    },
+    {
+      "provider": "codex_cli",
+      "model": "Codex default",
+      "turn": 2,
+      "max_turns": 2,
+      "usage_events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 17055,
+            "cached_input_tokens": 6912,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 667,
+            "reasoning_output_tokens": 376
+          }
+        }
+      ],
+      "estimated_cost_usd": null,
+      "cost_accounting": "Codex plan quota is not dollar-metered by the CLI"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "heldout_records": 1000,
+  "extracted_records": 0,
+  "field_coverage": {},
+  "errors": [
+    {
+      "kind": "extraction",
+      "source_record_id": "000000046",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000000055",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000000117",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000000260",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000000331",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000000359",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000000402",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000000699",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000000715",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000000779",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000000868",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000000957",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000000993",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000001007",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000001052",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000001249",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000001276",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000001794",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000002031",
+      "message": "'format'"
+    },
+    {
+      "kind": "extraction",
+      "source_record_id": "000002111",
+      "message": "'format'"
+    }
+  ],
+  "passes": false
+}

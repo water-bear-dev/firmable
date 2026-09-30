@@ -1,0 +1,10 @@
+{
+  "correction": "Changed record_id from Reference_Number to Reference_Number|Supplier_Name after the uniqueness check found 63 duplicate Reference_Number values in the 1,000-record held-out sample.",
+  "heldout_records": 1000,
+  "extracted_records": 1000,
+  "unique_source_record_ids": 1000,
+  "field_coverage": {"entity.trading_name": 1.0, "address.full": 1.0},
+  "errors": [],
+  "passes": true,
+  "additional_model_calls": 0
+}

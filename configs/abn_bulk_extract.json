@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "extractor_version": "1.0.0",
+  "source": {
+    "source_id": "abn_bulk_extract",
+    "licence": "Creative Commons Attribution 3.0 Australia",
+    "source_reliability": 0.9
+  },
+  "record_id": {
+    "source_fields": ["ABN"],
+    "separator": "|"
+  },
+  "field_mappings": [
+    {"source_field": "ABN", "destination": "entity.abn", "operations": [{"op": "strip"}, {"op": "digits_only"}, {"op": "validate_abn"}], "field_confidence": 0.99, "derivation_level": "L1"},
+    {"source_field": "ASICNumber", "destination": "entity.acn", "operations": [{"op": "strip"}, {"op": "digits_only"}], "field_confidence": 0.95, "derivation_level": "L1"},
+    {"source_field": "NonIndividualNameText", "destination": "entity.legal_name", "operations": [{"op": "strip"}], "field_confidence": 0.98, "derivation_level": "L1"},
+    {"source_field": "State", "destination": "address.state", "operations": [{"op": "strip"}, {"op": "upper"}], "field_confidence": 0.99, "derivation_level": "L1"},
+    {"source_field": "Postcode", "destination": "address.postcode", "operations": [{"op": "strip"}], "field_confidence": 0.99, "derivation_level": "L1"}
+  ],
+  "unmapped_fields": ["EntityTypeText"]
+}

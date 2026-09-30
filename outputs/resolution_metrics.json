@@ -1,0 +1,13 @@
+{
+  "matcher_version": "identifier-v1",
+  "input_observations": 12000,
+  "accepted_links": 83,
+  "unlinked_records": 11840,
+  "audit": {
+    "seed": 20260930,
+    "sample_size": 50,
+    "confirmed": 50,
+    "observed_precision": 1.0,
+    "path": "outputs/reviews/link_audit.csv"
+  }
+}

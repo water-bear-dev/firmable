@@ -1,0 +1,20 @@
+{
+  "api_url": "https://data.gov.au/data/api/3/action/package_search",
+  "retrieved_at_utc": "2026-09-29T05:34:52.695867+00:00",
+  "queries": [
+    "business",
+    "company",
+    "supplier",
+    "procurement",
+    "tender",
+    "charity",
+    "abn"
+  ],
+  "requested_records_per_query": 75,
+  "unique_received_records": 507,
+  "sort": "score desc, metadata_modified desc",
+  "raw_response": "outputs/manifests/ckan_package_search.json",
+  "raw_response_sha256": "75f56d9688520bd9f54f4578443c2d6bef5ef4f13c8d9db7482e233e71c4b9c1",
+  "ranking_version": "metadata-keywords-v1",
+  "audit_seed": 20260929
+}

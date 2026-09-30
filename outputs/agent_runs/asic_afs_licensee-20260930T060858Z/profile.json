@@ -1,0 +1,101 @@
+{
+  "REGISTER_NAME": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1,
+    "examples": [
+      "AFS Licence",
+      "AFS Licence",
+      "AFS Licence"
+    ]
+  },
+  "AFS_LIC_NUM": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1000,
+    "examples": [
+      "218600",
+      "218678",
+      "218770"
+    ]
+  },
+  "AFS_LIC_NAME": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1000,
+    "examples": [
+      "IPIB PTY LTD",
+      "IMC PACIFIC PTY LTD",
+      "TRILOGY GROUP AUSTRALIA PTY LTD"
+    ]
+  },
+  "AFS_LIC_ABN_ACN": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1000,
+    "examples": [
+      "85007186003",
+      "89099273846",
+      "80078111654"
+    ]
+  },
+  "AFS_LIC_START_DT": {
+    "non_null_rate": 1.0,
+    "distinct_count": 507,
+    "examples": [
+      "02/05/2002",
+      "26/04/2002",
+      "22/08/2002"
+    ]
+  },
+  "AFS_LIC_PRE_FSR": {
+    "non_null_rate": 0.479,
+    "distinct_count": 478,
+    "examples": [
+      "\"General insurance broker\",\"000030366\"",
+      "\"Futures broker\",\"000169201\"",
+      "\"Securities dealer\",\"000010783\""
+    ]
+  },
+  "AFS_LIC_ADD_LOCAL": {
+    "non_null_rate": 0.997,
+    "distinct_count": 278,
+    "examples": [
+      "SOUTHBANK",
+      "SYDNEY",
+      "TOORADIN"
+    ]
+  },
+  "AFS_LIC_ADD_STATE": {
+    "non_null_rate": 0.997,
+    "distinct_count": 8,
+    "examples": [
+      "VIC",
+      "NSW",
+      "VIC"
+    ]
+  },
+  "AFS_LIC_ADD_PCODE": {
+    "non_null_rate": 0.997,
+    "distinct_count": 246,
+    "examples": [
+      "3006",
+      "2000",
+      "3980"
+    ]
+  },
+  "AFS_LIC_ADD_COUNTRY": {
+    "non_null_rate": 1.0,
+    "distinct_count": 2,
+    "examples": [
+      "Australia",
+      "Australia",
+      "Australia"
+    ]
+  },
+  "AFS_LIC_CONDITION": {
+    "non_null_rate": 0.998,
+    "distinct_count": 731,
+    "examples": [
+      "\"This licence authorises the licensee to carry on a financial services business to:\"~\"(a) provide financial product advi",
+      "\"This licence authorises the licensee to carry on a financial services business to:\"~\"(a) deal in a financial product by",
+      "\"This licence authorises the licensee to carry on a financial services business to:\"~\"(a) provide general financial prod"
+    ]
+  }
+}

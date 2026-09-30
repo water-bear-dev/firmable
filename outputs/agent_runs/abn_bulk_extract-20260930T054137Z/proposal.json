@@ -1,0 +1,102 @@
+{
+  "version": "0.1",
+  "extractor_version": "1.0.0",
+  "source": {
+    "source_id": "abn_bulk_extract",
+    "dataset_id": "5bd7fcab-e315-42cb-8daf-50b7efc2027e",
+    "resource_id": "0ae4d427-6fa8-4d40-8e76-c6909b5a071b",
+    "licence": "Creative Commons Attribution 3.0 Australia",
+    "format": "zip/xml"
+  },
+  "record_id": {
+    "source_field": "ABN",
+    "operations": [
+      "digits_only",
+      "validate_abn"
+    ],
+    "field_confidence": 0.99,
+    "derivation_level": "L1"
+  },
+  "field_mappings": [
+    {
+      "target_field": "entity.abn",
+      "source_field": "ABN",
+      "operations": [
+        "digits_only",
+        "validate_abn"
+      ],
+      "field_confidence": 0.99,
+      "derivation_level": "L1"
+    },
+    {
+      "target_field": "entity.acn",
+      "source_field": "ASICNumber",
+      "operations": [
+        "digits_only"
+      ],
+      "field_confidence": 0.98,
+      "derivation_level": "L1"
+    },
+    {
+      "target_field": "entity.legal_name",
+      "source_field": "NonIndividualNameText",
+      "operations": [
+        "strip"
+      ],
+      "field_confidence": 0.98,
+      "derivation_level": "L1"
+    },
+    {
+      "target_field": "address.state",
+      "source_field": "State",
+      "operations": [
+        "upper",
+        "strip"
+      ],
+      "field_confidence": 0.99,
+      "derivation_level": "L1"
+    },
+    {
+      "target_field": "address.postcode",
+      "source_field": "Postcode",
+      "operations": [
+        "digits_only"
+      ],
+      "field_confidence": 0.99,
+      "derivation_level": "L1"
+    },
+    {
+      "target_field": "observation.source_id",
+      "operations": [
+        "default"
+      ],
+      "default_value": "abn_bulk_extract",
+      "field_confidence": 1,
+      "derivation_level": "L0"
+    },
+    {
+      "target_field": "observation.licence",
+      "operations": [
+        "default"
+      ],
+      "default_value": "Creative Commons Attribution 3.0 Australia",
+      "field_confidence": 1,
+      "derivation_level": "L0"
+    },
+    {
+      "target_field": "observation.extractor_version",
+      "operations": [
+        "default"
+      ],
+      "default_value": "1.0.0",
+      "field_confidence": 1,
+      "derivation_level": "L0"
+    }
+  ],
+  "unmapped_fields": [
+    {
+      "source_field": "EntityTypeText",
+      "reason": "Source values require a controlled crosswalk to the ontology entity_type enum; no mapping operation supports this safely."
+    }
+  ]
+}

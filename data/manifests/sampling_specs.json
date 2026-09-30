@@ -1,0 +1,12 @@
+{
+  "sample_size_per_split": 1000,
+  "split_rule": "sha256(source_id + ':' + source_record_id) final bit; records are accumulated deterministically until each split reaches the configured size",
+  "sources": {
+    "abn_bulk_extract": {"reader": "zip_xml", "member": "20260923_Public01.xml", "id_fields": ["ABN"]},
+    "asic_company": {"reader": "zip_delimited", "member": "COMPANY_202609.csv", "id_fields": ["ACN"]},
+    "asic_afs_licensee": {"reader": "csv", "id_fields": ["AFS_LIC_NUM"]},
+    "ato_corporate_tax_2023_24": {"reader": "xlsx", "sheet": "Income tax details", "header_row": 1, "id_fields": ["ABN"]},
+    "acnc_ais_2023": {"reader": "xlsx", "sheet": "Sheet1", "header_row": 1, "id_fields": ["abn"]},
+    "tenders_wa_2023_24": {"reader": "csv", "id_fields": ["Reference_Number", "Supplier_Name", "Award_Date"], "id_mode": "row_fingerprint"}
+  }
+}

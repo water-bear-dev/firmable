@@ -1,0 +1,139 @@
+{
+  "version": "0.1",
+  "extractor_version": "1.0.1",
+  "source": {
+    "source_id": "abn_bulk_extract",
+    "dataset_id": "5bd7fcab-e315-42cb-8daf-50b7efc2027e",
+    "resource_id": "0ae4d427-6fa8-4d40-8e76-c6909b5a071b",
+    "licence": "Creative Commons Attribution 3.0 Australia",
+    "format": "zip/xml"
+  },
+  "record_id": {
+    "source_fields": [
+      "ABN"
+    ],
+    "operations": [
+      "digits_only",
+      "validate_abn"
+    ]
+  },
+  "field_mappings": [
+    {
+      "target": "entity.abn",
+      "source_fields": [
+        "ABN"
+      ],
+      "operations": [
+        "digits_only",
+        "validate_abn"
+      ],
+      "field_confidence": 0.99,
+      "derivation_level": "L1"
+    },
+    {
+      "target": "entity.legal_name",
+      "source_fields": [
+        "NonIndividualNameText"
+      ],
+      "operations": [
+        "strip"
+      ],
+      "field_confidence": 0.98,
+      "derivation_level": "L1"
+    },
+    {
+      "target": "address.state",
+      "source_fields": [
+        "State"
+      ],
+      "operations": [
+        "upper",
+        "strip"
+      ],
+      "field_confidence": 0.99,
+      "derivation_level": "L1"
+    },
+    {
+      "target": "address.postcode",
+      "source_fields": [
+        "Postcode"
+      ],
+      "operations": [
+        "digits_only"
+      ],
+      "field_confidence": 0.99,
+      "derivation_level": "L1"
+    },
+    {
+      "target": "observation.source_record_id",
+      "source_fields": [
+        "ABN"
+      ],
+      "operations": [
+        "digits_only",
+        "validate_abn"
+      ],
+      "field_confidence": 0.99,
+      "derivation_level": "L1"
+    },
+    {
+      "target": "observation.source_id",
+      "source_fields": [],
+      "operations": [
+        {
+          "default": "abn_bulk_extract"
+        }
+      ],
+      "field_confidence": 1,
+      "derivation_level": "L1"
+    },
+    {
+      "target": "observation.licence",
+      "source_fields": [],
+      "operations": [
+        {
+          "default": "Creative Commons Attribution 3.0 Australia"
+        }
+      ],
+      "field_confidence": 1,
+      "derivation_level": "L1"
+    },
+    {
+      "target": "observation.extractor_version",
+      "source_fields": [],
+      "operations": [
+        {
+          "default": "1.0.1"
+        }
+      ],
+      "field_confidence": 1,
+      "derivation_level": "L1"
+    },
+    {
+      "target": "entity.entity_type",
+      "source_fields": [],
+      "operations": [
+        {
+          "default": "unknown"
+        }
+      ],
+      "field_confidence": 1,
+      "derivation_level": "L1"
+    },
+    {
+      "target": "address.country",
+      "source_fields": [],
+      "operations": [
+        {
+          "default": "AU"
+        }
+      ],
+      "field_confidence": 1,
+      "derivation_level": "L1"
+    }
+  ],
+  "unmapped_fields": [
+    "ASICNumber",
+    "EntityTypeText"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": "1.0",
+  "acquisitions": [
+    {
+      "source_id": "abn_bulk_extract",
+      "path": "data/raw/abn_bulk_extract.zip",
+      "retrieved_at_utc": "2026-09-29T06:16:17.119218+00:00",
+      "content_type": "application/zip",
+      "bytes_downloaded": 498419993,
+      "sha256": "99847bf821907e53d2e14776c8ae943f501b4f84b118111e3fe21a8afb0b4da1"
+    }
+  ]
+}

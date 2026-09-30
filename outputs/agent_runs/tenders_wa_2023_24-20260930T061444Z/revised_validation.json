@@ -1,0 +1,10 @@
+{
+  "heldout_records": 1000,
+  "extracted_records": 1000,
+  "field_coverage": {
+    "entity.trading_name": 1.0,
+    "address.full": 1.0
+  },
+  "errors": [],
+  "passes": true
+}

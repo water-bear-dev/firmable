@@ -1,0 +1,24 @@
+{
+  "source": {
+    "source_id": "asic_afs_licensee",
+    "format": "csv",
+    "publisher": "Australian Securities and Investments Commission (ASIC)",
+    "stable_record_id_candidate": "licence number plus ABN/ACN (verify from header)",
+    "licence": "Creative Commons Attribution 3.0 Australia"
+  },
+  "training_records": 1000,
+  "heldout_records": 1000,
+  "raw_fields": [
+    "AFS_LIC_ABN_ACN",
+    "AFS_LIC_ADD_COUNTRY",
+    "AFS_LIC_ADD_LOCAL",
+    "AFS_LIC_ADD_PCODE",
+    "AFS_LIC_ADD_STATE",
+    "AFS_LIC_CONDITION",
+    "AFS_LIC_NAME",
+    "AFS_LIC_NUM",
+    "AFS_LIC_PRE_FSR",
+    "AFS_LIC_START_DT",
+    "REGISTER_NAME"
+  ]
+}

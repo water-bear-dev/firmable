@@ -1,0 +1,12 @@
+{
+  "heldout_records": 1000,
+  "extracted_records": 1000,
+  "field_coverage": {
+    "entity.legal_name": 1.0,
+    "entity.acn": 1.0,
+    "entity.abn": 0.915,
+    "entity.date_registered": 1.0
+  },
+  "errors": [],
+  "passes": true
+}

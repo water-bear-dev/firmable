@@ -1,0 +1,55 @@
+{
+  "source_id": "acnc_ais_2023",
+  "run_id": "acnc_ais_2023-20260930T061243Z",
+  "completed_steps": [
+    "inspect",
+    "profile",
+    "propose",
+    "extract",
+    "validate",
+    "revise"
+  ],
+  "status": "approved",
+  "costs": [
+    {
+      "provider": "codex_cli",
+      "model": "Codex default",
+      "turn": 1,
+      "max_turns": 2,
+      "usage_events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 20432,
+            "cached_input_tokens": 5888,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 829,
+            "reasoning_output_tokens": 178
+          }
+        }
+      ],
+      "estimated_cost_usd": null,
+      "cost_accounting": "Codex plan quota is not dollar-metered by the CLI"
+    },
+    {
+      "provider": "codex_cli",
+      "model": "Codex default",
+      "turn": 2,
+      "max_turns": 2,
+      "usage_events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 20498,
+            "cached_input_tokens": 13056,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 859,
+            "reasoning_output_tokens": 209
+          }
+        }
+      ],
+      "estimated_cost_usd": null,
+      "cost_accounting": "Codex plan quota is not dollar-metered by the CLI"
+    }
+  ]
+}

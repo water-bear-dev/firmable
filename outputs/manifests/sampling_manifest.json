@@ -1,0 +1,111 @@
+{
+  "sample_size_per_split": 1000,
+  "sources": [
+    {
+      "source_id": "abn_bulk_extract",
+      "stable_record_id": [
+        "ABN"
+      ],
+      "outputs": {
+        "training": {
+          "path": "data/samples/abn_bulk_extract/training.jsonl",
+          "records": 1000,
+          "sha256": "40480434f87d864e677afe630ac652262cbc982e51e6c9975bdfdafd1502dc4a"
+        },
+        "heldout": {
+          "path": "data/samples/abn_bulk_extract/heldout.jsonl",
+          "records": 1000,
+          "sha256": "006d6e16a64b6eeeed0d8eb86a485108fa4f91f26da28fd540ebe3f10407136d"
+        }
+      }
+    },
+    {
+      "source_id": "asic_company",
+      "stable_record_id": [
+        "ACN"
+      ],
+      "outputs": {
+        "training": {
+          "path": "data/samples/asic_company/training.jsonl",
+          "records": 1000,
+          "sha256": "42d837fdb549fa7b4344b2b5bd2133075f7e611284e35953d03a825e61042554"
+        },
+        "heldout": {
+          "path": "data/samples/asic_company/heldout.jsonl",
+          "records": 1000,
+          "sha256": "8dc91da1963c838bb8ff0d72bdd7e2b7f762687b0ba13e3bfd50cb80f002833e"
+        }
+      }
+    },
+    {
+      "source_id": "asic_afs_licensee",
+      "stable_record_id": [
+        "AFS_LIC_NUM"
+      ],
+      "outputs": {
+        "training": {
+          "path": "data/samples/asic_afs_licensee/training.jsonl",
+          "records": 1000,
+          "sha256": "1352af0ca971c8523de52248b2fc1a3bc744a7e48015e01f64a062de95fcfcd9"
+        },
+        "heldout": {
+          "path": "data/samples/asic_afs_licensee/heldout.jsonl",
+          "records": 1000,
+          "sha256": "e7eb82ede9836651126f59b1bfb9f5f69e4b99e229515e4beb6c244f87cf2038"
+        }
+      }
+    },
+    {
+      "source_id": "ato_corporate_tax_2023_24",
+      "stable_record_id": [
+        "ABN"
+      ],
+      "outputs": {
+        "training": {
+          "path": "data/samples/ato_corporate_tax_2023_24/training.jsonl",
+          "records": 1000,
+          "sha256": "4f59630e9101c9338cedd0a595fd2018113fb197ba62cb6ccd6dd2365ec6ddc0"
+        },
+        "heldout": {
+          "path": "data/samples/ato_corporate_tax_2023_24/heldout.jsonl",
+          "records": 1000,
+          "sha256": "fd6bbdc6eb48452b726161504066704ae651e9e6b9a5d72eb5fb29a38a63e22a"
+        }
+      }
+    },
+    {
+      "source_id": "acnc_ais_2023",
+      "stable_record_id": [
+        "abn"
+      ],
+      "outputs": {
+        "training": {
+          "path": "data/samples/acnc_ais_2023/training.jsonl",
+          "records": 1000,
+          "sha256": "5bd16a05d3aec3dba63a79b6c32ce966211bc7998048931fb9da95c792ffcd89"
+        },
+        "heldout": {
+          "path": "data/samples/acnc_ais_2023/heldout.jsonl",
+          "records": 1000,
+          "sha256": "84a98bcc75b9976b496d5dd10522076afc1a4f8e3e9d6fe4dc4069e7ad1128d8"
+        }
+      }
+    },
+    {
+      "source_id": "tenders_wa_2023_24",
+      "stable_record_id": "sha256(canonical raw row)",
+      "outputs": {
+        "training": {
+          "path": "data/samples/tenders_wa_2023_24/training.jsonl",
+          "records": 1000,
+          "sha256": "f76c7ad03e4b7ee5020563cb5786417e8d97a84e73702e6541774e9b10185e7f"
+        },
+        "heldout": {
+          "path": "data/samples/tenders_wa_2023_24/heldout.jsonl",
+          "records": 1000,
+          "sha256": "49ef833155eefce3f0715dcaa7751f32d99182ad78fe94d7de0dc22779e4ee39"
+        }
+      }
+    }
+  ]
+}

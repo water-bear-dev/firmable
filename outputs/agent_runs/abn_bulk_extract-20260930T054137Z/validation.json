@@ -1,0 +1,12 @@
+{
+  "heldout_records": 1000,
+  "extracted_records": 0,
+  "field_coverage": {},
+  "errors": [
+    {
+      "kind": "config_contract",
+      "message": "record_id must declare one or more source_fields"
+    }
+  ],
+  "passes": false
+}

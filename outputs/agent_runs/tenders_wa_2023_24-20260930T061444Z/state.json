@@ -1,0 +1,55 @@
+{
+  "source_id": "tenders_wa_2023_24",
+  "run_id": "tenders_wa_2023_24-20260930T061444Z",
+  "completed_steps": [
+    "inspect",
+    "profile",
+    "propose",
+    "extract",
+    "validate",
+    "revise"
+  ],
+  "status": "approved",
+  "costs": [
+    {
+      "provider": "codex_cli",
+      "model": "Codex default",
+      "turn": 1,
+      "max_turns": 2,
+      "usage_events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 18214,
+            "cached_input_tokens": 13056,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 663,
+            "reasoning_output_tokens": 308
+          }
+        }
+      ],
+      "estimated_cost_usd": null,
+      "cost_accounting": "Codex plan quota is not dollar-metered by the CLI"
+    },
+    {
+      "provider": "codex_cli",
+      "model": "Codex default",
+      "turn": 2,
+      "max_turns": 2,
+      "usage_events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 18270,
+            "cached_input_tokens": 13056,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 553,
+            "reasoning_output_tokens": 202
+          }
+        }
+      ],
+      "estimated_cost_usd": null,
+      "cost_accounting": "Codex plan quota is not dollar-metered by the CLI"
+    }
+  ]
+}

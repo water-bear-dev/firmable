@@ -1,0 +1,12 @@
+{
+  "heldout_records": 1000,
+  "extracted_records": 0,
+  "field_coverage": {},
+  "errors": [
+    {
+      "kind": "config_contract",
+      "message": "Unknown ontology destination: None"
+    }
+  ],
+  "passes": false
+}

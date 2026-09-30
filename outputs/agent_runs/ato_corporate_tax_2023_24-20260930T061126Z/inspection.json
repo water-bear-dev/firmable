@@ -1,0 +1,19 @@
+{
+  "source": {
+    "source_id": "ato_corporate_tax_2023_24",
+    "format": "xlsx",
+    "publisher": "Australian Taxation Office",
+    "stable_record_id_candidate": "ABN (verify from worksheet header)",
+    "licence": "Creative Commons Attribution 3.0 Australia"
+  },
+  "training_records": 1000,
+  "heldout_records": 1000,
+  "raw_fields": [
+    "ABN",
+    "Income year",
+    "Name",
+    "Tax payable $",
+    "Taxable income $",
+    "Total income $"
+  ]
+}

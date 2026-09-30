@@ -1,0 +1,90 @@
+{
+  "manifest_version": "1.0",
+  "selection_date": "2026-09-29",
+  "sources": [
+    {
+      "source_id": "abn_bulk_extract",
+      "dataset_id": "5bd7fcab-e315-42cb-8daf-50b7efc2027e",
+      "resource_id": "0ae4d427-6fa8-4d40-8e76-c6909b5a071b",
+      "title": "ABN Bulk Extract Part 1",
+      "publisher": "Australian Business Register",
+      "licence": "Creative Commons Attribution 3.0 Australia",
+      "format": "zip/xml",
+      "url": "https://data.gov.au/data/dataset/5bd7fcab-e315-42cb-8daf-50b7efc2027e/resource/0ae4d427-6fa8-4d40-8e76-c6909b5a071b/download/public_split_1_10.zip",
+      "catalogue_size_bytes": 498419993,
+      "stable_record_id_candidate": "ABN (verify from XML sample)",
+      "acquisition_mode": "stream_or_sample",
+      "reason": "Identifier reference source; intentionally not full-loaded during the time-box."
+    },
+    {
+      "source_id": "asic_company",
+      "dataset_id": "7b8656f9-606d-4337-af29-66b89b2eeefb",
+      "resource_id": "d6d03876-71a4-4e82-8c77-2e4df5da4236",
+      "title": "ASIC Company Dataset Current",
+      "publisher": "Australian Securities and Investments Commission (ASIC)",
+      "licence": "Creative Commons Attribution 3.0 Australia",
+      "format": "zip/csv",
+      "url": "https://data.gov.au/data/dataset/7b8656f9-606d-4337-af29-66b89b2eeefb/resource/d6d03876-71a4-4e82-8c77-2e4df5da4236/download/company_202609.zip",
+      "catalogue_size_bytes": 79151729,
+      "stable_record_id_candidate": "ACN (verify from header)",
+      "acquisition_mode": "download",
+      "reason": "Company-register source with expected ACN linkage."
+    },
+    {
+      "source_id": "asic_afs_licensee",
+      "dataset_id": "ab7eddce-84df-4098-bc8f-500d0d9776d1",
+      "resource_id": "d98a113d-6b50-40e6-b65f-2612efc877f4",
+      "title": "ASIC AFS Licensee Current",
+      "publisher": "Australian Securities and Investments Commission (ASIC)",
+      "licence": "Creative Commons Attribution 3.0 Australia",
+      "format": "csv",
+      "url": "https://data.gov.au/data/dataset/ab7eddce-84df-4098-bc8f-500d0d9776d1/resource/d98a113d-6b50-40e6-b65f-2612efc877f4/download/afs_lic_202609.csv",
+      "catalogue_size_bytes": 11357029,
+      "stable_record_id_candidate": "licence number plus ABN/ACN (verify from header)",
+      "acquisition_mode": "download",
+      "reason": "Regulatory business source with expected strong identifiers."
+    },
+    {
+      "source_id": "ato_corporate_tax_2023_24",
+      "dataset_id": "c2524c87-cea4-4636-acac-599a82048a26",
+      "resource_id": "491b366b-aa6f-4b1c-b39d-cebaeeb6f874",
+      "title": "2023-24 Report of Entity Tax Information",
+      "publisher": "Australian Taxation Office",
+      "licence": "Creative Commons Attribution 3.0 Australia",
+      "format": "xlsx",
+      "url": "https://data.gov.au/data/dataset/c2524c87-cea4-4636-acac-599a82048a26/resource/491b366b-aa6f-4b1c-b39d-cebaeeb6f874/download/2023-24-corporate-report-of-entity-tax-information.xlsx",
+      "catalogue_size_bytes": 276536,
+      "stable_record_id_candidate": "ABN (verify from worksheet header)",
+      "acquisition_mode": "download",
+      "reason": "Small non-CSV source with expected ABN linkage and financial attributes."
+    },
+    {
+      "source_id": "acnc_ais_2023",
+      "dataset_id": "ff6905d6-9d5d-4ef1-8478-72b833864fb7",
+      "resource_id": "f8d9f239-012b-46af-86b5-5f6d9a49af1a",
+      "title": "ACNC 2023 AIS main data",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "licence": "Creative Commons Attribution 3.0 Australia",
+      "format": "xlsx",
+      "url": "https://data.gov.au/data/dataset/ff6905d6-9d5d-4ef1-8478-72b833864fb7/resource/f8d9f239-012b-46af-86b5-5f6d9a49af1a/download/datadotgov_ais23.xlsx",
+      "catalogue_size_bytes": 21531226,
+      "stable_record_id_candidate": "charity ABN/registration number (verify from worksheet header)",
+      "acquisition_mode": "download",
+      "reason": "Non-CSV charity-regulator source; main entity sheet only."
+    },
+    {
+      "source_id": "tenders_wa_2023_24",
+      "dataset_id": "90b272e8-9ae0-4995-8dc9-86f8249b51d1",
+      "resource_id": "855378f8-0398-4a0a-a1c2-218816508ec9",
+      "title": "Tenders WA Contract Award Details 2023-24",
+      "publisher": "WA Department of Treasury and Finance",
+      "licence": "Creative Commons Attribution 3.0 Australia",
+      "format": "csv",
+      "url": "https://catalogue.data.wa.gov.au/dataset/90b272e8-9ae0-4995-8dc9-86f8249b51d1/resource/855378f8-0398-4a0a-a1c2-218816508ec9/download/tenders-wa-contract-award-details-2023-24-financial-year.csv",
+      "catalogue_size_bytes": 4622055,
+      "stable_record_id_candidate": "contract award identifier (verify from header)",
+      "acquisition_mode": "download",
+      "reason": "Different-publisher procurement source; weak name-only matches must abstain."
+    }
+  ]
+}

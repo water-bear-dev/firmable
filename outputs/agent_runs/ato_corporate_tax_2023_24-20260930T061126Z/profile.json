@@ -1,0 +1,56 @@
+{
+  "Name": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1000,
+    "examples": [
+      "1ST ENERGY PTY LTD",
+      "20 CASHEWS PTY LTD",
+      "29METALS LIMITED"
+    ]
+  },
+  "ABN": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1000,
+    "examples": [
+      "71604999706",
+      "16634403124",
+      "95650096094"
+    ]
+  },
+  "Total income $": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1000,
+    "examples": [
+      "144268804",
+      "242155153",
+      "490015375"
+    ]
+  },
+  "Taxable income $": {
+    "non_null_rate": 0.763,
+    "distinct_count": 763,
+    "examples": [
+      "6396883",
+      "9887530",
+      "22463161"
+    ]
+  },
+  "Tax payable $": {
+    "non_null_rate": 0.712,
+    "distinct_count": 712,
+    "examples": [
+      "1919065",
+      "2877116",
+      "6738948"
+    ]
+  },
+  "Income year": {
+    "non_null_rate": 1.0,
+    "distinct_count": 1,
+    "examples": [
+      "2023-24",
+      "2023-24",
+      "2023-24"
+    ]
+  }
+}
